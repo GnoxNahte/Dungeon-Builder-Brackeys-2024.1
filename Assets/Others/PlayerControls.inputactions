@@ -24,16 +24,7 @@
                     "initialStateCheck": true
                 },
                 {
-                    "name": "Dash",
-                    "type": "PassThrough",
-                    "id": "bc51d11d-4881-4211-a1d9-36acfd152a4f",
-                    "expectedControlType": "",
-                    "processors": "",
-                    "interactions": "Tap",
-                    "initialStateCheck": false
-                },
-                {
-                    "name": "Sprint",
+                    "name": "MultipleSelect",
                     "type": "Button",
                     "id": "41184ef9-d9d8-429c-a41e-11494e349acb",
                     "expectedControlType": "Button",
@@ -60,7 +51,7 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Primary Attack",
+                    "name": "Cursor 1 Btn",
                     "type": "Button",
                     "id": "3cb0baed-65b6-4ff5-9a3a-956acd0d411a",
                     "expectedControlType": "Button",
@@ -69,7 +60,7 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Secondary Attack",
+                    "name": "Cursor 2 Btn",
                     "type": "Button",
                     "id": "b5784e2b-d92c-4c08-8c30-75e2a16ccad3",
                     "expectedControlType": "Button",
@@ -78,13 +69,31 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Auto Attack",
+                    "name": "Cursor 3 Btn",
                     "type": "Button",
-                    "id": "7ffd38cf-6213-4e22-8c03-fdb880a2ce20",
+                    "id": "d671180d-a24c-4e18-8b01-bec490344f12",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "CursorPos",
+                    "type": "Button",
+                    "id": "fe284a08-805b-4650-96ae-a865b85df6d4",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Scroll",
+                    "type": "Value",
+                    "id": "b06bf096-339a-4a8b-ae3a-e97a0060d8c9",
+                    "expectedControlType": "Delta",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
                 }
             ],
             "bindings": [
@@ -271,7 +280,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Gamepad",
-                    "action": "Primary Attack",
+                    "action": "Cursor 1 Btn",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -282,7 +291,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard&Mouse",
-                    "action": "Primary Attack",
+                    "action": "Cursor 1 Btn",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -293,7 +302,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Touch",
-                    "action": "Primary Attack",
+                    "action": "Cursor 1 Btn",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -304,7 +313,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Joystick",
-                    "action": "Primary Attack",
+                    "action": "Cursor 1 Btn",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -315,7 +324,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "XR",
-                    "action": "Primary Attack",
+                    "action": "Cursor 1 Btn",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -326,7 +335,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard&Mouse",
-                    "action": "Secondary Attack",
+                    "action": "Cursor 2 Btn",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -370,29 +379,40 @@
                     "interactions": "Hold",
                     "processors": "",
                     "groups": "Keyboard&Mouse",
-                    "action": "Sprint",
+                    "action": "MultipleSelect",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
                 {
                     "name": "",
-                    "id": "4661b987-c3d1-46ce-944b-c4ddf9e5595c",
-                    "path": "<Keyboard>/shift",
-                    "interactions": "Tap",
+                    "id": "cd510600-4bef-49b6-b48b-8c60ee52582f",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
                     "processors": "",
-                    "groups": "Keyboard&Mouse",
-                    "action": "Dash",
+                    "groups": "Keyboard&Mouse;Touch",
+                    "action": "CursorPos",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
                 {
                     "name": "",
-                    "id": "e45c5925-fd60-42df-ae93-5704e554ae99",
-                    "path": "<Keyboard>/space",
+                    "id": "c3bf1bdb-3e6b-4241-a0e6-a5534e665e58",
+                    "path": "<Mouse>/scroll",
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard&Mouse",
-                    "action": "Auto Attack",
+                    "action": "Scroll",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5b7e22ae-d016-4bb7-8a38-5c440dfe75c7",
+                    "path": "<Mouse>/middleButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard&Mouse",
+                    "action": "Cursor 3 Btn",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

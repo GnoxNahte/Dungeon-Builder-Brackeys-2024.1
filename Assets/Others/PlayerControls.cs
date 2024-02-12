@@ -46,16 +46,7 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
                     ""initialStateCheck"": true
                 },
                 {
-                    ""name"": ""Dash"",
-                    ""type"": ""PassThrough"",
-                    ""id"": ""bc51d11d-4881-4211-a1d9-36acfd152a4f"",
-                    ""expectedControlType"": """",
-                    ""processors"": """",
-                    ""interactions"": ""Tap"",
-                    ""initialStateCheck"": false
-                },
-                {
-                    ""name"": ""Sprint"",
+                    ""name"": ""MultipleSelect"",
                     ""type"": ""Button"",
                     ""id"": ""41184ef9-d9d8-429c-a41e-11494e349acb"",
                     ""expectedControlType"": ""Button"",
@@ -82,7 +73,7 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
                     ""initialStateCheck"": false
                 },
                 {
-                    ""name"": ""Primary Attack"",
+                    ""name"": ""Cursor 1 Btn"",
                     ""type"": ""Button"",
                     ""id"": ""3cb0baed-65b6-4ff5-9a3a-956acd0d411a"",
                     ""expectedControlType"": ""Button"",
@@ -91,7 +82,7 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
                     ""initialStateCheck"": false
                 },
                 {
-                    ""name"": ""Secondary Attack"",
+                    ""name"": ""Cursor 2 Btn"",
                     ""type"": ""Button"",
                     ""id"": ""b5784e2b-d92c-4c08-8c30-75e2a16ccad3"",
                     ""expectedControlType"": ""Button"",
@@ -100,13 +91,31 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
                     ""initialStateCheck"": false
                 },
                 {
-                    ""name"": ""Auto Attack"",
+                    ""name"": ""Cursor 3 Btn"",
                     ""type"": ""Button"",
-                    ""id"": ""7ffd38cf-6213-4e22-8c03-fdb880a2ce20"",
+                    ""id"": ""d671180d-a24c-4e18-8b01-bec490344f12"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""CursorPos"",
+                    ""type"": ""Button"",
+                    ""id"": ""fe284a08-805b-4650-96ae-a865b85df6d4"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": true
+                },
+                {
+                    ""name"": ""Scroll"",
+                    ""type"": ""Value"",
+                    ""id"": ""b06bf096-339a-4a8b-ae3a-e97a0060d8c9"",
+                    ""expectedControlType"": ""Delta"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": true
                 }
             ],
             ""bindings"": [
@@ -293,7 +302,7 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": ""Gamepad"",
-                    ""action"": ""Primary Attack"",
+                    ""action"": ""Cursor 1 Btn"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -304,7 +313,7 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": ""Keyboard&Mouse"",
-                    ""action"": ""Primary Attack"",
+                    ""action"": ""Cursor 1 Btn"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -315,7 +324,7 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": ""Touch"",
-                    ""action"": ""Primary Attack"",
+                    ""action"": ""Cursor 1 Btn"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -326,7 +335,7 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": ""Joystick"",
-                    ""action"": ""Primary Attack"",
+                    ""action"": ""Cursor 1 Btn"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -337,7 +346,7 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": ""XR"",
-                    ""action"": ""Primary Attack"",
+                    ""action"": ""Cursor 1 Btn"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -348,7 +357,7 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": ""Keyboard&Mouse"",
-                    ""action"": ""Secondary Attack"",
+                    ""action"": ""Cursor 2 Btn"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -392,29 +401,40 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
                     ""interactions"": ""Hold"",
                     ""processors"": """",
                     ""groups"": ""Keyboard&Mouse"",
-                    ""action"": ""Sprint"",
+                    ""action"": ""MultipleSelect"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
                 {
                     ""name"": """",
-                    ""id"": ""4661b987-c3d1-46ce-944b-c4ddf9e5595c"",
-                    ""path"": ""<Keyboard>/shift"",
-                    ""interactions"": ""Tap"",
+                    ""id"": ""cd510600-4bef-49b6-b48b-8c60ee52582f"",
+                    ""path"": ""<Mouse>/position"",
+                    ""interactions"": """",
                     ""processors"": """",
-                    ""groups"": ""Keyboard&Mouse"",
-                    ""action"": ""Dash"",
+                    ""groups"": ""Keyboard&Mouse;Touch"",
+                    ""action"": ""CursorPos"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
                 {
                     ""name"": """",
-                    ""id"": ""e45c5925-fd60-42df-ae93-5704e554ae99"",
-                    ""path"": ""<Keyboard>/space"",
+                    ""id"": ""c3bf1bdb-3e6b-4241-a0e6-a5534e665e58"",
+                    ""path"": ""<Mouse>/scroll"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": ""Keyboard&Mouse"",
-                    ""action"": ""Auto Attack"",
+                    ""action"": ""Scroll"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""5b7e22ae-d016-4bb7-8a38-5c440dfe75c7"",
+                    ""path"": ""<Mouse>/middleButton"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard&Mouse"",
+                    ""action"": ""Cursor 3 Btn"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -1004,13 +1024,14 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
         m_Player = asset.FindActionMap("Player", throwIfNotFound: true);
         m_Player_Aim = m_Player.FindAction("Aim", throwIfNotFound: true);
         m_Player_Move = m_Player.FindAction("Move", throwIfNotFound: true);
-        m_Player_Dash = m_Player.FindAction("Dash", throwIfNotFound: true);
-        m_Player_Sprint = m_Player.FindAction("Sprint", throwIfNotFound: true);
+        m_Player_MultipleSelect = m_Player.FindAction("MultipleSelect", throwIfNotFound: true);
         m_Player_Interact = m_Player.FindAction("Interact", throwIfNotFound: true);
         m_Player_Inventory = m_Player.FindAction("Inventory", throwIfNotFound: true);
-        m_Player_PrimaryAttack = m_Player.FindAction("Primary Attack", throwIfNotFound: true);
-        m_Player_SecondaryAttack = m_Player.FindAction("Secondary Attack", throwIfNotFound: true);
-        m_Player_AutoAttack = m_Player.FindAction("Auto Attack", throwIfNotFound: true);
+        m_Player_Cursor1Btn = m_Player.FindAction("Cursor 1 Btn", throwIfNotFound: true);
+        m_Player_Cursor2Btn = m_Player.FindAction("Cursor 2 Btn", throwIfNotFound: true);
+        m_Player_Cursor3Btn = m_Player.FindAction("Cursor 3 Btn", throwIfNotFound: true);
+        m_Player_CursorPos = m_Player.FindAction("CursorPos", throwIfNotFound: true);
+        m_Player_Scroll = m_Player.FindAction("Scroll", throwIfNotFound: true);
         // UI
         m_UI = asset.FindActionMap("UI", throwIfNotFound: true);
         m_UI_Navigate = m_UI.FindAction("Navigate", throwIfNotFound: true);
@@ -1086,26 +1107,28 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
     private List<IPlayerActions> m_PlayerActionsCallbackInterfaces = new List<IPlayerActions>();
     private readonly InputAction m_Player_Aim;
     private readonly InputAction m_Player_Move;
-    private readonly InputAction m_Player_Dash;
-    private readonly InputAction m_Player_Sprint;
+    private readonly InputAction m_Player_MultipleSelect;
     private readonly InputAction m_Player_Interact;
     private readonly InputAction m_Player_Inventory;
-    private readonly InputAction m_Player_PrimaryAttack;
-    private readonly InputAction m_Player_SecondaryAttack;
-    private readonly InputAction m_Player_AutoAttack;
+    private readonly InputAction m_Player_Cursor1Btn;
+    private readonly InputAction m_Player_Cursor2Btn;
+    private readonly InputAction m_Player_Cursor3Btn;
+    private readonly InputAction m_Player_CursorPos;
+    private readonly InputAction m_Player_Scroll;
     public struct PlayerActions
     {
         private @PlayerControls m_Wrapper;
         public PlayerActions(@PlayerControls wrapper) { m_Wrapper = wrapper; }
         public InputAction @Aim => m_Wrapper.m_Player_Aim;
         public InputAction @Move => m_Wrapper.m_Player_Move;
-        public InputAction @Dash => m_Wrapper.m_Player_Dash;
-        public InputAction @Sprint => m_Wrapper.m_Player_Sprint;
+        public InputAction @MultipleSelect => m_Wrapper.m_Player_MultipleSelect;
         public InputAction @Interact => m_Wrapper.m_Player_Interact;
         public InputAction @Inventory => m_Wrapper.m_Player_Inventory;
-        public InputAction @PrimaryAttack => m_Wrapper.m_Player_PrimaryAttack;
-        public InputAction @SecondaryAttack => m_Wrapper.m_Player_SecondaryAttack;
-        public InputAction @AutoAttack => m_Wrapper.m_Player_AutoAttack;
+        public InputAction @Cursor1Btn => m_Wrapper.m_Player_Cursor1Btn;
+        public InputAction @Cursor2Btn => m_Wrapper.m_Player_Cursor2Btn;
+        public InputAction @Cursor3Btn => m_Wrapper.m_Player_Cursor3Btn;
+        public InputAction @CursorPos => m_Wrapper.m_Player_CursorPos;
+        public InputAction @Scroll => m_Wrapper.m_Player_Scroll;
         public InputActionMap Get() { return m_Wrapper.m_Player; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -1121,27 +1144,30 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
             @Move.started += instance.OnMove;
             @Move.performed += instance.OnMove;
             @Move.canceled += instance.OnMove;
-            @Dash.started += instance.OnDash;
-            @Dash.performed += instance.OnDash;
-            @Dash.canceled += instance.OnDash;
-            @Sprint.started += instance.OnSprint;
-            @Sprint.performed += instance.OnSprint;
-            @Sprint.canceled += instance.OnSprint;
+            @MultipleSelect.started += instance.OnMultipleSelect;
+            @MultipleSelect.performed += instance.OnMultipleSelect;
+            @MultipleSelect.canceled += instance.OnMultipleSelect;
             @Interact.started += instance.OnInteract;
             @Interact.performed += instance.OnInteract;
             @Interact.canceled += instance.OnInteract;
             @Inventory.started += instance.OnInventory;
             @Inventory.performed += instance.OnInventory;
             @Inventory.canceled += instance.OnInventory;
-            @PrimaryAttack.started += instance.OnPrimaryAttack;
-            @PrimaryAttack.performed += instance.OnPrimaryAttack;
-            @PrimaryAttack.canceled += instance.OnPrimaryAttack;
-            @SecondaryAttack.started += instance.OnSecondaryAttack;
-            @SecondaryAttack.performed += instance.OnSecondaryAttack;
-            @SecondaryAttack.canceled += instance.OnSecondaryAttack;
-            @AutoAttack.started += instance.OnAutoAttack;
-            @AutoAttack.performed += instance.OnAutoAttack;
-            @AutoAttack.canceled += instance.OnAutoAttack;
+            @Cursor1Btn.started += instance.OnCursor1Btn;
+            @Cursor1Btn.performed += instance.OnCursor1Btn;
+            @Cursor1Btn.canceled += instance.OnCursor1Btn;
+            @Cursor2Btn.started += instance.OnCursor2Btn;
+            @Cursor2Btn.performed += instance.OnCursor2Btn;
+            @Cursor2Btn.canceled += instance.OnCursor2Btn;
+            @Cursor3Btn.started += instance.OnCursor3Btn;
+            @Cursor3Btn.performed += instance.OnCursor3Btn;
+            @Cursor3Btn.canceled += instance.OnCursor3Btn;
+            @CursorPos.started += instance.OnCursorPos;
+            @CursorPos.performed += instance.OnCursorPos;
+            @CursorPos.canceled += instance.OnCursorPos;
+            @Scroll.started += instance.OnScroll;
+            @Scroll.performed += instance.OnScroll;
+            @Scroll.canceled += instance.OnScroll;
         }
 
         private void UnregisterCallbacks(IPlayerActions instance)
@@ -1152,27 +1178,30 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
             @Move.started -= instance.OnMove;
             @Move.performed -= instance.OnMove;
             @Move.canceled -= instance.OnMove;
-            @Dash.started -= instance.OnDash;
-            @Dash.performed -= instance.OnDash;
-            @Dash.canceled -= instance.OnDash;
-            @Sprint.started -= instance.OnSprint;
-            @Sprint.performed -= instance.OnSprint;
-            @Sprint.canceled -= instance.OnSprint;
+            @MultipleSelect.started -= instance.OnMultipleSelect;
+            @MultipleSelect.performed -= instance.OnMultipleSelect;
+            @MultipleSelect.canceled -= instance.OnMultipleSelect;
             @Interact.started -= instance.OnInteract;
             @Interact.performed -= instance.OnInteract;
             @Interact.canceled -= instance.OnInteract;
             @Inventory.started -= instance.OnInventory;
             @Inventory.performed -= instance.OnInventory;
             @Inventory.canceled -= instance.OnInventory;
-            @PrimaryAttack.started -= instance.OnPrimaryAttack;
-            @PrimaryAttack.performed -= instance.OnPrimaryAttack;
-            @PrimaryAttack.canceled -= instance.OnPrimaryAttack;
-            @SecondaryAttack.started -= instance.OnSecondaryAttack;
-            @SecondaryAttack.performed -= instance.OnSecondaryAttack;
-            @SecondaryAttack.canceled -= instance.OnSecondaryAttack;
-            @AutoAttack.started -= instance.OnAutoAttack;
-            @AutoAttack.performed -= instance.OnAutoAttack;
-            @AutoAttack.canceled -= instance.OnAutoAttack;
+            @Cursor1Btn.started -= instance.OnCursor1Btn;
+            @Cursor1Btn.performed -= instance.OnCursor1Btn;
+            @Cursor1Btn.canceled -= instance.OnCursor1Btn;
+            @Cursor2Btn.started -= instance.OnCursor2Btn;
+            @Cursor2Btn.performed -= instance.OnCursor2Btn;
+            @Cursor2Btn.canceled -= instance.OnCursor2Btn;
+            @Cursor3Btn.started -= instance.OnCursor3Btn;
+            @Cursor3Btn.performed -= instance.OnCursor3Btn;
+            @Cursor3Btn.canceled -= instance.OnCursor3Btn;
+            @CursorPos.started -= instance.OnCursorPos;
+            @CursorPos.performed -= instance.OnCursorPos;
+            @CursorPos.canceled -= instance.OnCursorPos;
+            @Scroll.started -= instance.OnScroll;
+            @Scroll.performed -= instance.OnScroll;
+            @Scroll.canceled -= instance.OnScroll;
         }
 
         public void RemoveCallbacks(IPlayerActions instance)
@@ -1357,13 +1386,14 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
     {
         void OnAim(InputAction.CallbackContext context);
         void OnMove(InputAction.CallbackContext context);
-        void OnDash(InputAction.CallbackContext context);
-        void OnSprint(InputAction.CallbackContext context);
+        void OnMultipleSelect(InputAction.CallbackContext context);
         void OnInteract(InputAction.CallbackContext context);
         void OnInventory(InputAction.CallbackContext context);
-        void OnPrimaryAttack(InputAction.CallbackContext context);
-        void OnSecondaryAttack(InputAction.CallbackContext context);
-        void OnAutoAttack(InputAction.CallbackContext context);
+        void OnCursor1Btn(InputAction.CallbackContext context);
+        void OnCursor2Btn(InputAction.CallbackContext context);
+        void OnCursor3Btn(InputAction.CallbackContext context);
+        void OnCursorPos(InputAction.CallbackContext context);
+        void OnScroll(InputAction.CallbackContext context);
     }
     public interface IUIActions
     {
