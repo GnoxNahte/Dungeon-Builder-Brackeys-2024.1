@@ -31,7 +31,7 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
                     ""name"": ""Aim"",
                     ""type"": ""Value"",
                     ""id"": ""31c0dcf5-0ffc-46a5-b4d3-63bfebb88e18"",
-                    ""expectedControlType"": ""Vector2"",
+                    ""expectedControlType"": ""Delta"",
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": true
@@ -73,6 +73,24 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
                     ""initialStateCheck"": false
                 },
                 {
+                    ""name"": ""CursorPos"",
+                    ""type"": ""Value"",
+                    ""id"": ""fe284a08-805b-4650-96ae-a865b85df6d4"",
+                    ""expectedControlType"": ""Vector2"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": true
+                },
+                {
+                    ""name"": ""CursorDelta"",
+                    ""type"": ""Value"",
+                    ""id"": ""c2329b32-c033-4980-b954-049b357c1689"",
+                    ""expectedControlType"": ""Vector2"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": true
+                },
+                {
                     ""name"": ""Cursor 1 Btn"",
                     ""type"": ""Button"",
                     ""id"": ""3cb0baed-65b6-4ff5-9a3a-956acd0d411a"",
@@ -100,19 +118,10 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
                     ""initialStateCheck"": false
                 },
                 {
-                    ""name"": ""CursorPos"",
-                    ""type"": ""Button"",
-                    ""id"": ""fe284a08-805b-4650-96ae-a865b85df6d4"",
-                    ""expectedControlType"": ""Button"",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": true
-                },
-                {
                     ""name"": ""Scroll"",
                     ""type"": ""Value"",
                     ""id"": ""b06bf096-339a-4a8b-ae3a-e97a0060d8c9"",
-                    ""expectedControlType"": ""Delta"",
+                    ""expectedControlType"": ""Axis"",
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": true
@@ -407,19 +416,8 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""cd510600-4bef-49b6-b48b-8c60ee52582f"",
-                    ""path"": ""<Mouse>/position"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": ""Keyboard&Mouse;Touch"",
-                    ""action"": ""CursorPos"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
                     ""id"": ""c3bf1bdb-3e6b-4241-a0e6-a5534e665e58"",
-                    ""path"": ""<Mouse>/scroll"",
+                    ""path"": ""<Mouse>/scroll/y"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": ""Keyboard&Mouse"",
@@ -435,6 +433,28 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""groups"": ""Keyboard&Mouse"",
                     ""action"": ""Cursor 3 Btn"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""cd510600-4bef-49b6-b48b-8c60ee52582f"",
+                    ""path"": ""<Mouse>/position"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard&Mouse;Touch"",
+                    ""action"": ""CursorPos"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""0a40f31e-02d1-4cde-ba71-1f8be697314a"",
+                    ""path"": ""<Mouse>/delta"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""CursorDelta"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -1027,10 +1047,11 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
         m_Player_MultipleSelect = m_Player.FindAction("MultipleSelect", throwIfNotFound: true);
         m_Player_Interact = m_Player.FindAction("Interact", throwIfNotFound: true);
         m_Player_Inventory = m_Player.FindAction("Inventory", throwIfNotFound: true);
+        m_Player_CursorPos = m_Player.FindAction("CursorPos", throwIfNotFound: true);
+        m_Player_CursorDelta = m_Player.FindAction("CursorDelta", throwIfNotFound: true);
         m_Player_Cursor1Btn = m_Player.FindAction("Cursor 1 Btn", throwIfNotFound: true);
         m_Player_Cursor2Btn = m_Player.FindAction("Cursor 2 Btn", throwIfNotFound: true);
         m_Player_Cursor3Btn = m_Player.FindAction("Cursor 3 Btn", throwIfNotFound: true);
-        m_Player_CursorPos = m_Player.FindAction("CursorPos", throwIfNotFound: true);
         m_Player_Scroll = m_Player.FindAction("Scroll", throwIfNotFound: true);
         // UI
         m_UI = asset.FindActionMap("UI", throwIfNotFound: true);
@@ -1110,10 +1131,11 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
     private readonly InputAction m_Player_MultipleSelect;
     private readonly InputAction m_Player_Interact;
     private readonly InputAction m_Player_Inventory;
+    private readonly InputAction m_Player_CursorPos;
+    private readonly InputAction m_Player_CursorDelta;
     private readonly InputAction m_Player_Cursor1Btn;
     private readonly InputAction m_Player_Cursor2Btn;
     private readonly InputAction m_Player_Cursor3Btn;
-    private readonly InputAction m_Player_CursorPos;
     private readonly InputAction m_Player_Scroll;
     public struct PlayerActions
     {
@@ -1124,10 +1146,11 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
         public InputAction @MultipleSelect => m_Wrapper.m_Player_MultipleSelect;
         public InputAction @Interact => m_Wrapper.m_Player_Interact;
         public InputAction @Inventory => m_Wrapper.m_Player_Inventory;
+        public InputAction @CursorPos => m_Wrapper.m_Player_CursorPos;
+        public InputAction @CursorDelta => m_Wrapper.m_Player_CursorDelta;
         public InputAction @Cursor1Btn => m_Wrapper.m_Player_Cursor1Btn;
         public InputAction @Cursor2Btn => m_Wrapper.m_Player_Cursor2Btn;
         public InputAction @Cursor3Btn => m_Wrapper.m_Player_Cursor3Btn;
-        public InputAction @CursorPos => m_Wrapper.m_Player_CursorPos;
         public InputAction @Scroll => m_Wrapper.m_Player_Scroll;
         public InputActionMap Get() { return m_Wrapper.m_Player; }
         public void Enable() { Get().Enable(); }
@@ -1153,6 +1176,12 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
             @Inventory.started += instance.OnInventory;
             @Inventory.performed += instance.OnInventory;
             @Inventory.canceled += instance.OnInventory;
+            @CursorPos.started += instance.OnCursorPos;
+            @CursorPos.performed += instance.OnCursorPos;
+            @CursorPos.canceled += instance.OnCursorPos;
+            @CursorDelta.started += instance.OnCursorDelta;
+            @CursorDelta.performed += instance.OnCursorDelta;
+            @CursorDelta.canceled += instance.OnCursorDelta;
             @Cursor1Btn.started += instance.OnCursor1Btn;
             @Cursor1Btn.performed += instance.OnCursor1Btn;
             @Cursor1Btn.canceled += instance.OnCursor1Btn;
@@ -1162,9 +1191,6 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
             @Cursor3Btn.started += instance.OnCursor3Btn;
             @Cursor3Btn.performed += instance.OnCursor3Btn;
             @Cursor3Btn.canceled += instance.OnCursor3Btn;
-            @CursorPos.started += instance.OnCursorPos;
-            @CursorPos.performed += instance.OnCursorPos;
-            @CursorPos.canceled += instance.OnCursorPos;
             @Scroll.started += instance.OnScroll;
             @Scroll.performed += instance.OnScroll;
             @Scroll.canceled += instance.OnScroll;
@@ -1187,6 +1213,12 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
             @Inventory.started -= instance.OnInventory;
             @Inventory.performed -= instance.OnInventory;
             @Inventory.canceled -= instance.OnInventory;
+            @CursorPos.started -= instance.OnCursorPos;
+            @CursorPos.performed -= instance.OnCursorPos;
+            @CursorPos.canceled -= instance.OnCursorPos;
+            @CursorDelta.started -= instance.OnCursorDelta;
+            @CursorDelta.performed -= instance.OnCursorDelta;
+            @CursorDelta.canceled -= instance.OnCursorDelta;
             @Cursor1Btn.started -= instance.OnCursor1Btn;
             @Cursor1Btn.performed -= instance.OnCursor1Btn;
             @Cursor1Btn.canceled -= instance.OnCursor1Btn;
@@ -1196,9 +1228,6 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
             @Cursor3Btn.started -= instance.OnCursor3Btn;
             @Cursor3Btn.performed -= instance.OnCursor3Btn;
             @Cursor3Btn.canceled -= instance.OnCursor3Btn;
-            @CursorPos.started -= instance.OnCursorPos;
-            @CursorPos.performed -= instance.OnCursorPos;
-            @CursorPos.canceled -= instance.OnCursorPos;
             @Scroll.started -= instance.OnScroll;
             @Scroll.performed -= instance.OnScroll;
             @Scroll.canceled -= instance.OnScroll;
@@ -1389,10 +1418,11 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
         void OnMultipleSelect(InputAction.CallbackContext context);
         void OnInteract(InputAction.CallbackContext context);
         void OnInventory(InputAction.CallbackContext context);
+        void OnCursorPos(InputAction.CallbackContext context);
+        void OnCursorDelta(InputAction.CallbackContext context);
         void OnCursor1Btn(InputAction.CallbackContext context);
         void OnCursor2Btn(InputAction.CallbackContext context);
         void OnCursor3Btn(InputAction.CallbackContext context);
-        void OnCursorPos(InputAction.CallbackContext context);
         void OnScroll(InputAction.CallbackContext context);
     }
     public interface IUIActions

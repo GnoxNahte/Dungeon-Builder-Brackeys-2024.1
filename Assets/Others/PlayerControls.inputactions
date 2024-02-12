@@ -9,7 +9,7 @@
                     "name": "Aim",
                     "type": "Value",
                     "id": "31c0dcf5-0ffc-46a5-b4d3-63bfebb88e18",
-                    "expectedControlType": "Vector2",
+                    "expectedControlType": "Delta",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
@@ -51,6 +51,24 @@
                     "initialStateCheck": false
                 },
                 {
+                    "name": "CursorPos",
+                    "type": "Value",
+                    "id": "fe284a08-805b-4650-96ae-a865b85df6d4",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "CursorDelta",
+                    "type": "Value",
+                    "id": "c2329b32-c033-4980-b954-049b357c1689",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
                     "name": "Cursor 1 Btn",
                     "type": "Button",
                     "id": "3cb0baed-65b6-4ff5-9a3a-956acd0d411a",
@@ -78,19 +96,10 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "CursorPos",
-                    "type": "Button",
-                    "id": "fe284a08-805b-4650-96ae-a865b85df6d4",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": true
-                },
-                {
                     "name": "Scroll",
                     "type": "Value",
                     "id": "b06bf096-339a-4a8b-ae3a-e97a0060d8c9",
-                    "expectedControlType": "Delta",
+                    "expectedControlType": "Axis",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
@@ -385,19 +394,8 @@
                 },
                 {
                     "name": "",
-                    "id": "cd510600-4bef-49b6-b48b-8c60ee52582f",
-                    "path": "<Mouse>/position",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Keyboard&Mouse;Touch",
-                    "action": "CursorPos",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
                     "id": "c3bf1bdb-3e6b-4241-a0e6-a5534e665e58",
-                    "path": "<Mouse>/scroll",
+                    "path": "<Mouse>/scroll/y",
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard&Mouse",
@@ -413,6 +411,28 @@
                     "processors": "",
                     "groups": "Keyboard&Mouse",
                     "action": "Cursor 3 Btn",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "cd510600-4bef-49b6-b48b-8c60ee52582f",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard&Mouse;Touch",
+                    "action": "CursorPos",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0a40f31e-02d1-4cde-ba71-1f8be697314a",
+                    "path": "<Mouse>/delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "CursorDelta",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

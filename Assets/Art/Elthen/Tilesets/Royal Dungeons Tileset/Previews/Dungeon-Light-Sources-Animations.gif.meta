@@ -215,7 +215,11 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Dungeon-Light-Sources-Animations_0: -6786194060253723939
+      Dungeon-Light-Sources-Animations_1: 53641381650447208
+      Dungeon-Light-Sources-Animations_2: 8970901462921250208
+      Dungeon-Light-Sources-Animations_3: -7057985781775220007
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
