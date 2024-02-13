@@ -5,6 +5,7 @@ using UnityEngine;
 // GameManager will always be present in all scenes, not destroyed between scenes
 public class GameManager : MonoBehaviour
 {
+    [Header("References")]
     [SerializeField] private InputManager input;
 
     public static InputManager Input { get { return instance.input; } }
