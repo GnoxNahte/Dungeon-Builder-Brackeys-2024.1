@@ -1,0 +1,1077 @@
+fileFormatVersion: 2
+guid: 59061d3c46101b74ea6f21f9e9423c1a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8414456292245591275
+    second: Ratfolk Berserker Sprite Sheet_0
+  - first:
+      213: 2832632610689532167
+    second: Ratfolk Berserker Sprite Sheet_1
+  - first:
+      213: 40713818888799247
+    second: Ratfolk Berserker Sprite Sheet_2
+  - first:
+      213: 4499183182830852305
+    second: Ratfolk Berserker Sprite Sheet_3
+  - first:
+      213: 5164346396986070883
+    second: Ratfolk Berserker Sprite Sheet_4
+  - first:
+      213: 2898610834760085332
+    second: Ratfolk Berserker Sprite Sheet_5
+  - first:
+      213: 5659683641797530025
+    second: Ratfolk Berserker Sprite Sheet_6
+  - first:
+      213: -4931658475977743147
+    second: Ratfolk Berserker Sprite Sheet_7
+  - first:
+      213: 5110858071315525436
+    second: Ratfolk Berserker Sprite Sheet_8
+  - first:
+      213: 1745680790002304124
+    second: Ratfolk Berserker Sprite Sheet_9
+  - first:
+      213: -1945764677756206307
+    second: Ratfolk Berserker Sprite Sheet_10
+  - first:
+      213: -1115835748502111935
+    second: Ratfolk Berserker Sprite Sheet_11
+  - first:
+      213: -2627683135160974196
+    second: Ratfolk Berserker Sprite Sheet_12
+  - first:
+      213: 4143408333116853371
+    second: Ratfolk Berserker Sprite Sheet_13
+  - first:
+      213: 4971667204214191107
+    second: Ratfolk Berserker Sprite Sheet_14
+  - first:
+      213: 9188201500255607566
+    second: Ratfolk Berserker Sprite Sheet_15
+  - first:
+      213: -8131481326811928625
+    second: Ratfolk Berserker Sprite Sheet_16
+  - first:
+      213: -3950702766948977107
+    second: Ratfolk Berserker Sprite Sheet_17
+  - first:
+      213: 4934324147587986707
+    second: Ratfolk Berserker Sprite Sheet_18
+  - first:
+      213: -6158658562367630455
+    second: Ratfolk Berserker Sprite Sheet_19
+  - first:
+      213: -3897093990482245890
+    second: Ratfolk Berserker Sprite Sheet_20
+  - first:
+      213: -1735393819715600578
+    second: Ratfolk Berserker Sprite Sheet_21
+  - first:
+      213: -2064620985743401698
+    second: Ratfolk Berserker Sprite Sheet_22
+  - first:
+      213: -1168926985533736750
+    second: Ratfolk Berserker Sprite Sheet_23
+  - first:
+      213: -6239769431472840829
+    second: Ratfolk Berserker Sprite Sheet_24
+  - first:
+      213: 8862527314261189801
+    second: Ratfolk Berserker Sprite Sheet_25
+  - first:
+      213: -5695994345701592547
+    second: Ratfolk Berserker Sprite Sheet_26
+  - first:
+      213: 1002735851256536271
+    second: Ratfolk Berserker Sprite Sheet_27
+  - first:
+      213: -3713554681545870950
+    second: Ratfolk Berserker Sprite Sheet_28
+  - first:
+      213: -4220377371088016082
+    second: Ratfolk Berserker Sprite Sheet_29
+  - first:
+      213: -5373566521467386021
+    second: Ratfolk Berserker Sprite Sheet_30
+  - first:
+      213: 3184668469069733772
+    second: Ratfolk Berserker Sprite Sheet_31
+  - first:
+      213: -8529827835752874200
+    second: Ratfolk Berserker Sprite Sheet_32
+  - first:
+      213: -4891957740340011989
+    second: Ratfolk Berserker Sprite Sheet_33
+  - first:
+      213: -3392714041038524749
+    second: Ratfolk Berserker Sprite Sheet_34
+  - first:
+      213: -591716730868589629
+    second: Ratfolk Berserker Sprite Sheet_35
+  - first:
+      213: -469080787186310507
+    second: Ratfolk Berserker Sprite Sheet_36
+  - first:
+      213: 5863644535936927575
+    second: Ratfolk Berserker Sprite Sheet_37
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ratfolk Berserker Sprite Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be459558a6726c470800000000000000
+      internalID: 8414456292245591275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Berserker Sprite Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 701465bf9588f4720800000000000000
+      internalID: 2832632610689532167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Berserker Sprite Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f040158a005a09000800000000000000
+      internalID: 40713818888799247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Berserker Sprite Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 160
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d85b00644f407e30800000000000000
+      internalID: 4499183182830852305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Berserker Sprite Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3675c69afa17ba740800000000000000
+      internalID: 5164346396986070883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Berserker Sprite Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45f29fb523fe93820800000000000000
+      internalID: 2898610834760085332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Berserker Sprite Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a15e62394c3b8e40800000000000000
+      internalID: 5659683641797530025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Berserker Sprite Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d46dc1ceba3f8bb0800000000000000
+      internalID: -4931658475977743147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Berserker Sprite Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3f233e565a6de640800000000000000
+      internalID: 5110858071315525436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Berserker Sprite Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c748f43fd67e93810800000000000000
+      internalID: 1745680790002304124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Berserker Sprite Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d13c6dda5514ff4e0800000000000000
+      internalID: -1945764677756206307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Berserker Sprite Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 128
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14979d67c41c380f0800000000000000
+      internalID: -1115835748502111935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Berserker Sprite Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8402725c18988bd0800000000000000
+      internalID: -2627683135160974196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Berserker Sprite Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7cc2de1de7508930800000000000000
+      internalID: 4143408333116853371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Berserker Sprite Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30475a03bf8eef440800000000000000
+      internalID: 4971667204214191107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Berserker Sprite Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0b5273559c038f70800000000000000
+      internalID: 9188201500255607566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Berserker Sprite Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 96
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc727a1d0dc272f80800000000000000
+      internalID: -8131481326811928625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Berserker Sprite Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 96
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d267ad2e3c84c29c0800000000000000
+      internalID: -3950702766948977107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Berserker Sprite Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 96
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3153d974bad3a7440800000000000000
+      internalID: 4934324147587986707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Berserker Sprite Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 96
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 983d821eaac088aa0800000000000000
+      internalID: -6158658562367630455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Berserker Sprite Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef60ff0d9adbae9c0800000000000000
+      internalID: -3897093990482245890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Berserker Sprite Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3f7176f384aae7e0800000000000000
+      internalID: -1735393819715600578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Berserker Sprite Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1d92fcf62ef853e0800000000000000
+      internalID: -2064620985743401698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Berserker Sprite Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d8b4e2991327cfe0800000000000000
+      internalID: -1168926985533736750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Berserker Sprite Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38f58b403c2e769a0800000000000000
+      internalID: -6239769431472840829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Berserker Sprite Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a42cbaf2a50efa70800000000000000
+      internalID: 8862527314261189801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Berserker Sprite Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d12b2dd3253c3f0b0800000000000000
+      internalID: -5695994345701592547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Berserker Sprite Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 64
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fccd1b9a1fe6aed00800000000000000
+      internalID: 1002735851256536271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Berserker Sprite Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a91387041bdc67cc0800000000000000
+      internalID: -3713554681545870950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Berserker Sprite Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2da33a34253e65c0800000000000000
+      internalID: -4220377371088016082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Berserker Sprite Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b57410718b14d65b0800000000000000
+      internalID: -5373566521467386021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Berserker Sprite Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8fd94a7917323c20800000000000000
+      internalID: 3184668469069733772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Berserker Sprite Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82ff5beb6c6ff9980800000000000000
+      internalID: -8529827835752874200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Berserker Sprite Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2c9fc69a564c1cb0800000000000000
+      internalID: -4891957740340011989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Berserker Sprite Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3be2b671e88aae0d0800000000000000
+      internalID: -3392714041038524749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Berserker Sprite Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cb1ce0b4ccc9c7f0800000000000000
+      internalID: -591716730868589629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Berserker Sprite Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 592acc4628d7d79f0800000000000000
+      internalID: -469080787186310507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratfolk Berserker Sprite Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7574ea573a9df5150800000000000000
+      internalID: 5863644535936927575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 256207d482c5a77429c7a1fe24c86378
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Ratfolk Berserker Sprite Sheet_0: 8414456292245591275
+      Ratfolk Berserker Sprite Sheet_1: 2832632610689532167
+      Ratfolk Berserker Sprite Sheet_10: -1945764677756206307
+      Ratfolk Berserker Sprite Sheet_11: -1115835748502111935
+      Ratfolk Berserker Sprite Sheet_12: -2627683135160974196
+      Ratfolk Berserker Sprite Sheet_13: 4143408333116853371
+      Ratfolk Berserker Sprite Sheet_14: 4971667204214191107
+      Ratfolk Berserker Sprite Sheet_15: 9188201500255607566
+      Ratfolk Berserker Sprite Sheet_16: -8131481326811928625
+      Ratfolk Berserker Sprite Sheet_17: -3950702766948977107
+      Ratfolk Berserker Sprite Sheet_18: 4934324147587986707
+      Ratfolk Berserker Sprite Sheet_19: -6158658562367630455
+      Ratfolk Berserker Sprite Sheet_2: 40713818888799247
+      Ratfolk Berserker Sprite Sheet_20: -3897093990482245890
+      Ratfolk Berserker Sprite Sheet_21: -1735393819715600578
+      Ratfolk Berserker Sprite Sheet_22: -2064620985743401698
+      Ratfolk Berserker Sprite Sheet_23: -1168926985533736750
+      Ratfolk Berserker Sprite Sheet_24: -6239769431472840829
+      Ratfolk Berserker Sprite Sheet_25: 8862527314261189801
+      Ratfolk Berserker Sprite Sheet_26: -5695994345701592547
+      Ratfolk Berserker Sprite Sheet_27: 1002735851256536271
+      Ratfolk Berserker Sprite Sheet_28: -3713554681545870950
+      Ratfolk Berserker Sprite Sheet_29: -4220377371088016082
+      Ratfolk Berserker Sprite Sheet_3: 4499183182830852305
+      Ratfolk Berserker Sprite Sheet_30: -5373566521467386021
+      Ratfolk Berserker Sprite Sheet_31: 3184668469069733772
+      Ratfolk Berserker Sprite Sheet_32: -8529827835752874200
+      Ratfolk Berserker Sprite Sheet_33: -4891957740340011989
+      Ratfolk Berserker Sprite Sheet_34: -3392714041038524749
+      Ratfolk Berserker Sprite Sheet_35: -591716730868589629
+      Ratfolk Berserker Sprite Sheet_36: -469080787186310507
+      Ratfolk Berserker Sprite Sheet_37: 5863644535936927575
+      Ratfolk Berserker Sprite Sheet_4: 5164346396986070883
+      Ratfolk Berserker Sprite Sheet_5: 2898610834760085332
+      Ratfolk Berserker Sprite Sheet_6: 5659683641797530025
+      Ratfolk Berserker Sprite Sheet_7: -4931658475977743147
+      Ratfolk Berserker Sprite Sheet_8: 5110858071315525436
+      Ratfolk Berserker Sprite Sheet_9: 1745680790002304124
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
