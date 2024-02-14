@@ -125,10 +125,10 @@ TextureImporter:
       name: Spikes Sprite Sheet_0
       rect:
         serializedVersion: 2
-        x: 64
-        y: 96
+        x: 0
+        y: 64
         width: 32
-        height: 32
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -146,10 +146,10 @@ TextureImporter:
       name: Spikes Sprite Sheet_1
       rect:
         serializedVersion: 2
-        x: 96
-        y: 96
+        x: 32
+        y: 64
         width: 32
-        height: 32
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -167,10 +167,10 @@ TextureImporter:
       name: Spikes Sprite Sheet_2
       rect:
         serializedVersion: 2
-        x: 0
+        x: 64
         y: 64
         width: 32
-        height: 32
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -188,10 +188,10 @@ TextureImporter:
       name: Spikes Sprite Sheet_3
       rect:
         serializedVersion: 2
-        x: 32
+        x: 96
         y: 64
         width: 32
-        height: 32
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -209,10 +209,10 @@ TextureImporter:
       name: Spikes Sprite Sheet_4
       rect:
         serializedVersion: 2
-        x: 64
-        y: 64
+        x: 0
+        y: 0
         width: 32
-        height: 32
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -230,10 +230,10 @@ TextureImporter:
       name: Spikes Sprite Sheet_5
       rect:
         serializedVersion: 2
-        x: 96
-        y: 64
+        x: 32
+        y: 0
         width: 32
-        height: 32
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -252,9 +252,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 64
-        y: 32
+        y: 0
         width: 32
-        height: 32
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -273,9 +273,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 96
-        y: 32
+        y: 0
         width: 32
-        height: 32
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -285,90 +285,6 @@ TextureImporter:
       bones: []
       spriteID: 8d41b3ed254725f49a96c40f92d32def
       internalID: 149667878
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Spikes Sprite Sheet_8
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 048eb7029e70ebf47b0ae87f92a278d6
-      internalID: -283877613
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Spikes Sprite Sheet_9
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2f5f1393c770eff439a759bf0a729843
-      internalID: 25871977
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Spikes Sprite Sheet_10
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ec886bba92410f04b9a1dac44a7edcc9
-      internalID: -991182452
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Spikes Sprite Sheet_11
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 434ac63a6cd2570439e953986b115aee
-      internalID: -32957085
       vertices: []
       indices: 
       edges: []
@@ -386,16 +302,12 @@ TextureImporter:
     nameFileIdTable:
       Spikes Sprite Sheet_0: -1128622020716983068
       Spikes Sprite Sheet_1: 911438436681232212
-      Spikes Sprite Sheet_10: -991182452
-      Spikes Sprite Sheet_11: -32957085
       Spikes Sprite Sheet_2: 4712775498487262699
       Spikes Sprite Sheet_3: 45610911833231805
       Spikes Sprite Sheet_4: 1251206060
       Spikes Sprite Sheet_5: 452041491
       Spikes Sprite Sheet_6: -1059595544
       Spikes Sprite Sheet_7: 149667878
-      Spikes Sprite Sheet_8: -283877613
-      Spikes Sprite Sheet_9: 25871977
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
