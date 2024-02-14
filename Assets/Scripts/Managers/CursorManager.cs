@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 
 public enum CursorType
@@ -52,8 +53,11 @@ public class CursorManager : MonoBehaviour
         }
     }
 
-    private void OnValidate()
-    {
-        SetCursor(startType);
-    }
+    //private void OnValidate()
+    //{
+    //    if (EditorApplication.isPlaying || EditorApplication.isPaused)
+    //    {
+    //        SetCursor(startType);
+    //    }
+    //}
 }

@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
 
 public class InputManager : MonoBehaviour
@@ -77,15 +78,17 @@ public class InputManager : MonoBehaviour
         CursorPos = cursorPos.ReadValue<Vector2>();
         CursorDelta = cursorDelta.ReadValue<Vector2>();
 
+        bool isNotClickingUI = !EventSystem.current.IsPointerOverGameObject();
+
         // Cursors
-        Cursor1Clicked = cursorBtn1.IsPressed();
-        Cursor1ClickedThisFrame = cursorBtn1.WasPressedThisFrame();
+        Cursor1Clicked = cursorBtn1.IsPressed()                     && isNotClickingUI;
+        Cursor1ClickedThisFrame = cursorBtn1.WasPressedThisFrame()  && isNotClickingUI;
 
-        Cursor2Clicked = cursorBtn2.IsPressed();
-        Cursor2ClickedThisFrame = cursorBtn2.WasPressedThisFrame();
+        Cursor2Clicked = cursorBtn2.IsPressed()                     && isNotClickingUI;
+        Cursor2ClickedThisFrame = cursorBtn2.WasPressedThisFrame()  && isNotClickingUI;
 
-        Cursor3Clicked = cursorBtn3.IsPressed();
-        Cursor3ClickedThisFrame = cursorBtn3.WasPressedThisFrame();
+        Cursor3Clicked = cursorBtn3.IsPressed()                     && isNotClickingUI;
+        Cursor3ClickedThisFrame = cursorBtn3.WasPressedThisFrame()  && isNotClickingUI;
 
         Move = move.ReadValue<Vector2>();
         Scroll = scroll.ReadValue<float>();

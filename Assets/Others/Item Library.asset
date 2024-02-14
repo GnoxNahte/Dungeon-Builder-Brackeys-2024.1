@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 105f8806c7dafa74482e99e0e1ff13ae, type: 3}
+  m_Name: Item Library
+  m_EditorClassIdentifier: 
+  items:
+  - Name: Dungeon Tile
+    Type: 0
+    Description: Used to build the layout of the dungeon
+    cost: 10
+    icon: {fileID: 1455505785, guid: fc39b46702b0565498857d0572d462a1, type: 3}
+    iconScaleMultiplier: {x: 0.8, y: 0.8}
+    tile: {fileID: 11400000, guid: 68859ec386bfff044bfdc8dab18f7cab, type: 2}
+    monsterStats:
+      health: 0
+      baseDamage: 0
+      attackSpeed: 0
+      moveSpeed: 0
+      skillDescription: []
+  - Name: Spike Trap
+    Type: 1
+    Description: 'Deals 5 damage to anyone who walks over it.
+
+      Cooldown: 10s'
+    cost: 150
+    icon: {fileID: 45610911833231805, guid: 60dbd020766483648ac5ca16b29ccf58, type: 3}
+    iconScaleMultiplier: {x: 1, y: 2}
+    tile: {fileID: 0}
+    monsterStats:
+      health: 0
+      baseDamage: 0
+      attackSpeed: 0
+      moveSpeed: 0
+      skillDescription: []
+  - Name: Goblin
+    Type: 2
+    Description: Scrawny goblin looking for mischief
+    cost: 100
+    icon: {fileID: -1241481195021270816, guid: 5e054efbab52bb340b1f3e2defb9a8e4, type: 3}
+    iconScaleMultiplier: {x: 2, y: 2}
+    tile: {fileID: 0}
+    monsterStats:
+      health: 50
+      baseDamage: 10
+      attackSpeed: 1
+      moveSpeed: 1
+      skillDescription: []
+  - Name: Goblin Assassin
+    Type: 2
+    Description: Goblin assassin who trained only in dealing damage, making him fragile.
+    cost: 200
+    icon: {fileID: 2831719077688144181, guid: cf5d514e98111de46b692f47bddedaee, type: 3}
+    iconScaleMultiplier: {x: 1.5, y: 1.5}
+    tile: {fileID: 0}
+    monsterStats:
+      health: 50
+      baseDamage: 30
+      attackSpeed: 1.5
+      moveSpeed: 1.5
+      skillDescription: []
+  - Name: Ratfolk Adventurer
+    Type: 2
+    Description: 'Well trained, all-rounded adventurer '
+    cost: 300
+    icon: {fileID: 6962243406853576765, guid: f65f2ed1231a4d0418eaf5aa3f03b5a1, type: 3}
+    iconScaleMultiplier: {x: 1.5, y: 1.5}
+    tile: {fileID: 0}
+    monsterStats:
+      health: 90
+      baseDamage: 40
+      attackSpeed: 0.8
+      moveSpeed: 2.5
+      skillDescription: []
+  - Name: Ratfolk Adventurer
+    Type: 2
+    Description: 'Well trained, all-rounded adventurer '
+    cost: 300
+    icon: {fileID: 6962243406853576765, guid: f65f2ed1231a4d0418eaf5aa3f03b5a1, type: 3}
+    iconScaleMultiplier: {x: 1.5, y: 1.5}
+    tile: {fileID: 0}
+    monsterStats:
+      health: 90
+      baseDamage: 40
+      attackSpeed: 0.8
+      moveSpeed: 2.5
+      skillDescription: []
